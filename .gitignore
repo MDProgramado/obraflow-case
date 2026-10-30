@@ -30,3 +30,13 @@ docker/data/
 # ===== OS =====
 .DS_Store
 Thumbs.db
+
+# ===== Logs =====
+*.log
+*.log~
+
+# ===== Artefatos de teste / automacao =====
+.playwright-mcp/
+test-results/
+playwright-report/
+coverage/
